@@ -1,0 +1,200 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Gives the body a font family */
+    margin: 0; /* resets the magin to 0 for whole body */
+    padding: 0; /* resets the padding to 0 for whole body */
+    background-color: #29651fb2; /* whole page is given the color of light gray */
+}
+
+header, nav, section, aside{
+    margin: 10px; /* margin of 10px to header, nav, section, and aside */
+    padding: 10px; /* padding of 10px to header, nav, section, and aside */
+    border: 1px solid #ffffff; /* border is given with width of 1px solid with color #ccc */
+}
+
+
+/* Header Style */
+header {
+    background-color: #007BFF; /* Washington Blue */
+    color: #FFFFFF; /* White */
+    text-align: center; /* aligns text to center */
+    position: relative; 
+    font-size: 20px;
+}
+
+header img{
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+}
+
+/* Navbar Style */
+nav {
+    background-color: #007BFF; /* Washington Blue */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #FFFFFF; /* White */
+    font-size: x-large;
+}
+
+nav ul li a:hover {
+    text-decoration: wavy; 
+    color: #69BE28;
+}
+
+/* Section Style */
+section { 
+    width: 70%;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    overflow-y: auto;
+    background-color: #007BFF;
+    color: white;
+}
+
+section p{
+    font-size: x-large;
+}
+
+/* Table Style in Section */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: #e6f7ff;
+    font-size: 25px;
+    align-items: center;
+    color: rgb(0, 0, 0);
+}
+
+table, th, td {
+    border: 10px solid black;
+}
+
+th, td{
+    padding: 10px;
+    text-align: left;
+}
+
+thead {
+    background-color: #69BE28;
+
+}
+
+tbody tr:nth-child(even){
+    background-color: #69BE28;
+}
+/* Aside style */
+aside {
+    width: 20%;
+    float: left;
+    padding: 20px;
+    text-align: center;
+    background-color: #007BFF;
+    color: #ffffff;
+    overflow-y: auto;
+    font-size: large;
+}
+
+aside h2{
+    margin-top: 0;
+}
+
+.relative-box {
+    position: relative;
+    color: yellow;
+    border: 1px solid yellow;
+}
+
+/* absolute box on top right of home page */
+.absolute-box {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 5px;
+    background-color: #69BE28;
+    border: 1px solid #ccc;
+}
+
+/* Contact page css */
+#contact {
+    background-color: #007BFF;
+    padding: 20px;
+    margin: 20px auto;
+    margin-left: 300px;
+    align-items: center;
+    width: 1000px;
+    border-radius: 8x;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Form style */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group{
+    margin-bottom: 15px;
+}
+
+.form-group label{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input, .form-group textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.form-group input:focus, .form-group text-area:focus {
+    border-color: #007BFF;
+}
+
+text-area {
+    resize: vertical;
+}
+
+/* Email Error style  */
+#emailError {
+    color: rgb(250, 0, 0);
+    margin-top: 5px;
+    font-size: 0.9em;
+}
+
+/* Submit Button Style */
+.button{
+    align-self: flex-end;
+    background-color: #FF9800;
+    color: #FFF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* Submit button when hovered */
+.button:hover {
+    background-color: #F57C00;
+}
+
+
